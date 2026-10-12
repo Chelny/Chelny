@@ -1,7 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   experimental: {
     agentFeedback: true,
   },
@@ -15,6 +14,9 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  allowedDevOrigins: process.env.ALLOWED_DEV_ORIGIN
+    ? [process.env.ALLOWED_DEV_ORIGIN]
+    : [],
 };
 
 export default nextConfig;
