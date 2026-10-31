@@ -19,7 +19,7 @@ export function SkillCard({
   skills,
 }: SkillCardProps): React.JSX.Element {
   return (
-    <article className="rounded-[10px] border border-(--border) bg-(--surface) p-4.5 shadow-[0_5px_20px_var(--shadow)] transition-[border-color,transform,box-shadow] duration-150 ease-in-out hover:-translate-y-0.5 hover:border-(--border-strong) hover:shadow-[0_10px_30px_var(--shadow)]">
+    <article className="rounded-[10px] border border-(--border) bg-(--surface) h-full p-4.5 shadow-[0_5px_20px_var(--shadow)] transition-[border-color,transform,box-shadow] duration-150 ease-in-out hover:-translate-y-0.5 hover:border-(--border-strong) hover:shadow-[0_10px_30px_var(--shadow)]">
       <div className="mb-5.5 flex items-center gap-2.75">
         <span
           className="inline-flex size-9 shrink-0 items-center justify-center rounded-[7px] border border-(--border) bg-(--surface-2) text-(--accent)"

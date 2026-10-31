@@ -19,7 +19,7 @@ export function Skills(): React.JSX.Element {
         </>
       }
     >
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 items-stretch">
         {skillGroups.map((group: SkillGroup, index: number) => (
           <ResponsiveMotion key={group.title} delay={index * 0.07}>
             <SkillCard
