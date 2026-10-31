@@ -17,8 +17,15 @@
   --accent-hover: #a92f49;
   --accent-soft: #f1d8de;
 
-  --code-background: #e5e8e8;
-  --code-foreground: #293039;
+  --code-background: #f8fafc;
+  --code-foreground: #0f172a;
+  --code-comment: #6b7280;
+  --code-string: #16a34a;
+  --code-number: #d97706;
+  --code-keyword: #7c3aed;
+  --code-function: #2563eb;
+  --code-type: #0ea5e9;
+  --code-punct: #475569;
 
   --font-mono: ui-monospace,
     SFMono-Regular,
@@ -52,8 +59,15 @@
   --accent-hover: #ed687f;
   --accent-soft: #38232b;
 
-  --code-background: #111821;
-  --code-foreground: #d6dbe0;
+  --code-background: #18181b;
+  --code-foreground: #e2e8f0;
+  --code-comment: #71717a;
+  --code-string: #4ade80;
+  --code-number: #fbbf24;
+  --code-keyword: #c084fc;
+  --code-function: #60a5fa;
+  --code-type: #38bdf8;
+  --code-punct: #94a3b8;
 
   --shadow: rgba(0, 0, 0, 0.22);
 
