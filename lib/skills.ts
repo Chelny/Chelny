@@ -1,5 +1,5 @@
 import { ForwardRefExoticComponent, RefAttributes } from "react";
-import { IconBrandAngular, IconBrandJavascript, IconBrandNodejs, IconBrandPhp, IconBrandReact, IconBrandTypescript, IconCode, IconDeviceMobile, IconProps, IconServer, IconSettings } from "@tabler/icons-react";
+import { IconAccessible, IconBrandAngular, IconBrandCss3, IconBrandGolang, IconBrandHtml5, IconBrandJavascript, IconBrandMongodb, IconBrandMysql, IconBrandNodejs, IconBrandPhp, IconBrandReact, IconBrandReactNative, IconBrandSass, IconBrandTailwind, IconBrandTypescript, IconCode, IconDeviceMobile, IconProps, IconServer, IconSettings, IconSql, IconTestPipe } from "@tabler/icons-react";
 
 export type SkillIcon = ForwardRefExoticComponent<
   IconProps & RefAttributes<SVGSVGElement>
@@ -16,6 +16,10 @@ export const skillGroups: SkillGroup[] = [
     title: "Frontend",
     icon: IconCode,
     skills: {
+      HTML: IconBrandHtml5,
+      CSS: IconBrandCss3,
+      Tailwind: IconBrandTailwind,
+      Sass: IconBrandSass,
       JavaScript: IconBrandJavascript,
       TypeScript: IconBrandTypescript,
       React: IconBrandReact,
@@ -28,11 +32,14 @@ export const skillGroups: SkillGroup[] = [
     title: "Full-stack",
     icon: IconServer,
     skills: {
-      "APIs": IconCode,
-      "PHP": IconBrandPhp,
-      "SQL": IconServer,
+      "REST APIs": IconCode,
       "Node.js": IconBrandNodejs,
       "Express.js": IconServer,
+      "PHP": IconBrandPhp,
+      "Go": IconBrandGolang,
+      "MySQL": IconBrandMysql,
+      "PostgreSQL": IconSql,
+      "MongoDB": IconBrandMongodb,
     },
   },
   {
@@ -41,6 +48,8 @@ export const skillGroups: SkillGroup[] = [
     skills: {
       "Ionic": IconDeviceMobile,
       "Capacitor": IconDeviceMobile,
+      "React Native": IconBrandReactNative,
+      "Expo": IconDeviceMobile,
     },
   },
   {
@@ -49,8 +58,8 @@ export const skillGroups: SkillGroup[] = [
     skills: {
       "Architecture": IconSettings,
       "Performance": IconSettings,
-      "Accessibility": IconSettings,
-      "Testing": IconSettings,
+      "Accessibility": IconAccessible,
+      "Testing": IconTestPipe,
     },
   },
 ];

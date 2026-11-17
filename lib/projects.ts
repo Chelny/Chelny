@@ -22,8 +22,8 @@ export const projects: Project[] = [
   {
     title: "Youpi! Towers",
     description:
-      "Youpi!: Clone of the 90's multiplayer game Yahoo! Towers* built with Next.js and Postgres.",
-    stack: "Next.js · React · TypeScript · Tailwind CSS · Prisma · Postgres · Socket.io",
+      "Youpi!: Clone of the 90's multiplayer game Yahoo! Towers* built with Next.js and PostgreSQL.",
+    stack: "Next.js · React · TypeScript · Tailwind CSS · Prisma · PostgreSQL · Socket.io",
     href: "https://github.com/Chelny/youpi",
     image: "/images/project-youpi-towers.webp",
     imageAlt: "Youpi! Towers screenshot",

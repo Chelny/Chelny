@@ -5,7 +5,6 @@ import {
   IconBrandGithub,
   IconBrandLinkedin,
   IconBrandX,
-  IconCode,
 } from "@tabler/icons-react";
 import { Section } from "@/components/layout/Section";
 import { ResponsiveMotion } from "@/components/ResponsiveMotion";
@@ -54,7 +53,7 @@ export function Contact(): React.JSX.Element {
             <IconArrowUpRight size={16} aria-hidden="true" />
           </TextLink>
 
-          <TextLink
+          {/* <TextLink
             className="inline-flex items-center gap-2 font-semibold hover:text-(--accent)!"
             href="https://www.upwork.com/freelancers/~01991710a4cf08f291?mp_source=share"
             target="_blank"
@@ -63,7 +62,7 @@ export function Contact(): React.JSX.Element {
             <IconCode size={19} aria-hidden="true" />
             Upwork
             <IconArrowUpRight size={16} aria-hidden="true" />
-          </TextLink>
+          </TextLink> */}
 
           <TextLink
             className="inline-flex items-center gap-2 font-semibold hover:text-(--accent)!"
