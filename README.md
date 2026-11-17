@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Hi, I'm Chelny 👋🏾
 
-First, run the development server:
+### Senior Front-End Developer
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I'm a front-end developer with more than 10 years of experience building web and mobile applications. I specialize in TypeScript, Angular, and React, with a strong focus on modern front-end architecture and clean, maintainable code.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Over the years, I've worked across the full product lifecycle, from collaborating with design and product teams to shipping features, running A/B tests, and improving performance, accessibility, and testing. I've also built and maintained hybrid mobile applications with Ionic and Capacitor, shipped to iOS and Android, and I'm comfortable working with design systems, CI/CD pipelines, and AI-assisted development workflows.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+What I enjoy most is turning complex requirements into intuitive, responsive interfaces that feel effortless for users. I've worked in fast-paced product environments, contributed to code reviews, and helped teams raise the bar on front-end quality. I learn quickly, pay attention to detail, and see my work through to release.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+I'm currently open to senior front-end roles, as well as hybrid mobile and full-stack positions.
 
-## Learn More
+## Core Technologies
 
-To learn more about Next.js, take a look at the following resources:
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,javascript,typescript,angular,react,nextjs,remix,nodejs,express,php,go,mysql,postgresql,mongodb,prisma,jest,vitest,cypress,git,githubactions&perline=6" />
+  </a>
+</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Connect with me
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/chelny)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
